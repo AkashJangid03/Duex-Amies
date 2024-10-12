@@ -1,0 +1,268 @@
+* {
+    margin:0;
+    padding: 0;
+    border: border-box;
+}
+
+body {
+    margin: auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    width: 1500px;
+}
+header {
+    background: white;
+    color: black;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* transition: background 0.3s ease; */
+}
+/*
+header:hover {
+    background: #ecbe71;
+}*/
+header a{text-decoration: none;}
+header a:hover {cursor: pointer;}
+header h1{
+    font-size: 50px;
+    color: #ecbe71;
+}
+nav { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    transition: 2s ease-in-out;
+}
+.logo img:hover{
+    transform: rotateY(360deg);
+}
+header img {
+    height: 130px;
+    border-radius: 60%;
+    padding-right: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 580px;
+}
+
+header nav ul li {
+    margin-left: 2.5rem;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul li a:hover {
+    color: #ecbe71;
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+.hero {
+    background: url('hero-img1.jpg')  center center/cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    color: #fff;
+    text-align: center;
+}
+.hero p {
+    margin-bottom: 40px;
+}
+.hero p b:hover {
+    color: orange;
+    font-size: 55px;
+    transition: 0.3s ease-in-out;
+    text-shadow: 0 2px 4px rgba(255, 215, 0, 0.4), 0 2px 10px rgba(255, 215, 0, 0.3);
+}
+/*
+.hero:hover {
+    background: url('https://via.placeholder.com/1500x600/ff7f50') no-repeat center center/cover;
+    cursor: pointer;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+*/
+.discout {
+    margin-top: 15px;
+    width: 100%;
+}
+.discout img {
+    width: 100%;
+}
+
+.categories{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: -20px;
+}
+
+.product{
+    height: 400px;
+    width: 23%;
+    background-color: whitesmoke;
+    margin-top: 15px;
+}
+
+.product-image {
+    height: 75%;
+    width: 100%;
+    cursor: pointer;
+}
+.product-text {
+    height: auto;
+    width: auto;
+    background-color: #ecbe71;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.pt1 {
+    font-size: 20px;
+}
+.pt2 {
+    font-size: 30px;
+}
+.product a {
+    text-decoration: none;
+    color: white;
+}
+
+.product:hover {
+    transform: scale(1.04);
+    transition: 0.3s ease-in-out;
+}
+
+iframe {
+    width: 100%;
+}
+
+
+
+.footer{
+    margin-top: 15px;
+}
+/** Panel 1 foot-panel1 **/
+.foot-panel1 {
+    background-color: #ecbe71;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+/** Panel 2 foot-panel2 **/
+.foot-panel2 {
+    background-color: white;
+    color: #ecbe71;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display:block; 
+    /** block is usedc so that all the content comes in same line wo <a> tag wala **/
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #ecbe71;
+}
+
+/** Panel 3 foot-panel3 *
+.foot-panel3 {
+    color: black;
+    border-top: 0.5px solid white;
+    height:70px;
+    display: flex;
+    justify-content: center;
+}
+.contact-logo {
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+    border: 0.2px;
+    display: flex;
+}
+.contact-logo img{
+    margin-left: 10px;
+}**/
+.foot-panel3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ecbe71;
+
+    padding-left: 45%;
+}
+.foot-panel3 a{
+    text-decoration: none;
+}
+.foot-panel3 h1{
+    color: #ecbe71;
+}
+.foot-panel3 h1:hover {
+    color: #ecbe71;
+}
+.foot-panel3 .fa-brands{
+    padding: 10px;
+}
+.foot-panel3 .fa-brands:hover {
+    color: #ecbe71;
+    transform: scale(1.4);
+    transition: 0.2s ease;
+}
+
+/** Panel 4 foot-panel4 **/
+.foot-panel4{
+    background-color: #ecbe71;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.pages a {
+    margin: 30px;
+}
+
+
+
+

@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.images-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    width: 60%;
+    padding: 10px;
+}
+
+.images-section .image img {
+    width: 100%;
+    height: auto;
+}
+
+.details-section {
+    width: 35%;
+    padding: 20px;
+}
+
+.details-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.price {
+    color: red;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.current-price {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #666;
+    margin-left: 10px;
+}
+
+.discount {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.tax-info {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.size-section {
+    margin-bottom: 20px;
+}
+
+.size-section h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sizes button {
+    border: 2px solid #666;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.sizes button:hover {
+    border-color: black;
+    background-color: #000;
+    color: #fff;
+}
+
+.add-to-bag, .wishlist {
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.add-to-bag {
+    background-color: red;
+    color: white;
+    border: none;
+}
+.add-to-bag:hover{
+    background-color: rgba(255, 0, 0, 0.817);
+    transition: 0.2s ease-in-out;
+}
+
+.wishlist {
+    border: 2px solid #666;
+    color: #666;
+    background-color: transparent;
+}
+
+.delivery-section, .offers-section {
+    margin-bottom: 20px;
+}
+
+.delivery-section input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #666;
+    margin-bottom: 10px;
+}
+
+.check-btn {
+    color: red;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.offers-section h3, .extra-offers h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.offers-section ul, .extra-offers ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.offers-section li, .extra-offers li {
+    margin-bottom: 5px;
+}
