@@ -1,10 +1,9 @@
 # Duex-Amies
 
-##E-Commerce Static Website
-#####Project Overview
+Project Overview
 This repository contains a static e-commerce website developed for a client as part of a freelance project. The website was crafted exclusively using HTML and CSS to meet the client’s specific design preferences and business requirements. It serves as a clean, responsive platform to showcase products, providing a smooth and elegant user experience.
 
-#####Features
+Features
 Responsive Design: Built with responsive CSS to ensure that the website is fully functional and visually appealing on various devices, including desktops, tablets, and smartphones.
 Custom Design: The layout and style were tailored precisely to the client’s branding and design needs, with a focus on aesthetics and ease of use.
 Product Display: A structured and attractive gallery page for showcasing products with images, descriptions, and prices.
@@ -12,7 +11,7 @@ User-Friendly Navigation: Simple and intuitive navigation, allowing users to eas
 Contact Page: A dedicated contact page for inquiries, allowing customers to get in touch with the business.
 Clean and Organized Code: The website's HTML and CSS code is well-structured and easy to modify for future updates or expansions.
 
-####Technology Stack
+Technology Stack
 HTML5: The core structure of the website.
 CSS3: Custom styles for layout, typography, colors, and responsiveness.
 Installation and Setup
