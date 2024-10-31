@@ -15,9 +15,6 @@ Technology Stack
 HTML5: The core structure of the website.
 CSS3: Custom styles for layout, typography, colors, and responsiveness.
 Installation and Setup
-Clone the repository:
-bash
-git clone https://github.com/your-username/e-commerce-static-website.git
 Navigate into the project folder:
 
 bash
